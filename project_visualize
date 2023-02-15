@@ -1,0 +1,45 @@
+
+import pandas as pd 
+import numpy as nd 
+from matplotlib import pyplot as plt 
+import seaborn as sns
+import openpyxl  
+import tkinter as tk 
+import tkinter.messagebox
+
+
+#Plot "Experinciability"
+Experienciability=pd.read_excel('C:\\Users\\baile\\Desktop\\Methods in Digital Art History Code\\experiencability_times_per_year.xlsx')
+plt.scatter(Experienciability["Year"], Experienciability["Number"])
+plt.show()
+
+#Plot "Potentiality"
+Potentiality= pd.read_excel ('C:\\Users\\baile\\Desktop\\Methods in Digital Art History Code\\potentiality_times_per_year.xlsx')
+plt.scatter(Potentiality["Year"],Potentiality["Number"])
+plt.show()
+
+#Plot "Space+Art"
+Space=pd.read_excel('C:\\Users\\baile\\Desktop\\Methods in Digital Art History Code\\space_times_per_year.xlsx')
+plt.scatter(Space["Year"], Space["Number"]) 
+plt.show()
+
+#Plot "Proposition+Art"
+Proposition= pd.read_excel('C:\\Users\\baile\\Desktop\\Methods in Digital Art History Code\\proposition_times_per_year.xlsx')
+plt.scatter(Proposition["Year"],Proposition["Number"]) 
+plt.show()
+
+#Plot "Radically+Art"
+Radically= pd.read_excel('C:\\Users\\baile\\Desktop\\Methods in Digital Art History Code\\radically_times_per_year.xlsx')
+plt.scatter(Radically["Year"], Radically["Number"])
+plt.show()
+
+#Plot "Biopolitical + Art"
+Biopolitical=pd.read_excel('C:\\Users\\baile\\Desktop\\Methods in Digital Art History Code\\biopolitical_times_per_year.xlsx')
+plt.scatter(Biopolitical["Year"],Biopolitical ["Number"])
+plt.show()
+
+#Plot "Encode + Art" 
+Encode=pd.read_excel('C:\\Users\\baile\\Desktop\\Methods in Digital Art History Code\\encode_times_per_year.xlsx')
+plt.scatter(Encode["Year"], Encode["Number"])
+plt.show()
+
